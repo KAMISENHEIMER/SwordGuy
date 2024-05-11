@@ -102,8 +102,9 @@ GameObject:
   m_Component:
   - component: {fileID: 5418667299488756380}
   - component: {fileID: 760208751310146858}
-  - component: {fileID: 4385251937767884786}
   - component: {fileID: 3256384472335310269}
+  - component: {fileID: 4385251937767884786}
+  - component: {fileID: -8708588040825126430}
   m_Layer: 0
   m_Name: SwordGuy
   m_TagString: Untagged
@@ -179,20 +180,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &4385251937767884786
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8889235029012638564}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 735e19a2ff32ae84b82210a6a1389fdf, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  speed: 10
-  rb: {fileID: 3256384472335310269}
 --- !u!50 &3256384472335310269
 Rigidbody2D:
   serializedVersion: 4
@@ -220,3 +207,29 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
+--- !u!114 &4385251937767884786
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8889235029012638564}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 735e19a2ff32ae84b82210a6a1389fdf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 10
+  rb: {fileID: 3256384472335310269}
+--- !u!114 &-8708588040825126430
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8889235029012638564}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3e3912a73397cf94e817d2f0486ddbfa, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
