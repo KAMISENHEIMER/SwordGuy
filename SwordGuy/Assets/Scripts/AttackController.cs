@@ -27,5 +27,6 @@ public class AttackController : MonoBehaviour
     void Attack()
     {
         Debug.Log("attack");
+        //use some sort of premade cone sprite, but set the center to the corner of the sprite so the distance can scale later on
     }
 }
