@@ -3,14 +3,14 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public enum DamageType {
-Normal,
-Fire,
-Ice
+    Normal,
+    Fire,
+    Ice
 }
 
 public enum AttackPattern {
     Cone,
-    Sphere,
+    Circle,
     Line
 }
 

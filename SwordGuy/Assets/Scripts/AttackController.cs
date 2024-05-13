@@ -29,5 +29,9 @@ public class AttackController : MonoBehaviour
     {
         Debug.Log("attack");
         //use some sort of premade cone sprite, but set the center to the corner of the sprite so the distance can scale later on
+        switch (currentSword.attackPattern)
+        {
+            
+        }
     }
 }
