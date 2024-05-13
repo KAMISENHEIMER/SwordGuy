@@ -8,8 +8,9 @@ public class AttackController : MonoBehaviour
     private float readyAtTime = 0;      //at what game time the cooldown is satisfied
     public Rigidbody2D rb;
 
-    bool fireInput;
+    private bool fireInput;
 
+    public Sword currentSword;
     
     // Update is called once per frame
     void Update()
